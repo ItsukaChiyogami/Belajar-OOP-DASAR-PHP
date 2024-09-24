@@ -1,0 +1,102 @@
+Procedural Programming
+Pada Procedural Programming Sering kali dilakukan instruksi langkah demi langkah
+Procedural Programming juga Melakukan Modularisasi yaitu dengan memecahkan program
+menjadi bagian - bagian kecil yang dimana mungkin procedural programming yang lainnya
+mungkin bukan disebut function tapi lebih disebut prosedur,subroutine
+procedural programming disebut juga linear atau bisa dibilang dari atas ke bawah,berbeda dengan oop yang dimana lebih testruktur dan terpisah agar lebih dapat dan cepat dikenali dan dipahami oleh programmer lain
+bahasa programmer procedural biasanya ada di : fortran,ALGOL,COBOL,Pascal,C,PHP,Javascript
+beberapa bahasa dapat menggunakan procedural programming ataupun Object Oriented Programming seperti PHP dan Javascript
+
+Kelebihan Procedural
+- To The Point
+- Simplicity & kemudahan implementasi 
+  (untuk compiler dan interpreter)
+- mudah ditelusuri 
+  (jika ada error lansung mentarget dimana kesalahannya)
+- membutuhkan sedikit memory daripada OOP
+
+OOP adalah Karakteristik dalam programming yang dimana lebih 
+tekstruktur,OOP sering kali digunakan dalam Project yang besar seperti project yang membutuhkan banyak orang
+- OOP sering menyusun semua kode program dan struktur data sebagai object (semua akan kita anggap sebagai object)
+- Object adalah unit dari program
+- Object menyimpan data dan perilaku (disebut property dan methods)
+- Object bisa saling berinteraksi
+Beberapa Bahasa Pemograman yang memakai Paradigma OOP yaitu java,Ruby,Python,C++,JavaScript,PHP5
+
+Kelebihan OOP 
+- Lebih Mudah Mempresentasikan sesuatu yang ada Didunia Nyata yang nantinya akan menjadi kebutuhan dalam program kita 
+- Enkapsulasi & Abstraksi Data,Enkapsulasi Membuat Data yang kita buat lebih aman Dan Abstraksi Data Mudah untuk menyembunyikan Kerumitan Dari Program kita
+- Reusability (membuat agar menggunakan ulang bagian bagian dari program yang sudah dibuat)
+- Skalabilitas dan Ekstensibilitas
+Dengan Menggunakan OOP ini akan memudahkan Ketika Programnya akan lebih besar 
+- Kemudahan Pengelolaan
+- Kolaborasi
+- Konsep OOP Digunakan dalam framework 
+
+Konsep OOP pada php
+Basic
+- Class and object
+- Property and methods
+- Constructor
+- Object Type
+- Inheritance
+- Visibility / Access Modifier (public/private/protected)
+- Setter and Getter
+- Static Methods
+
+Advanced
+- Abstract dan interface 
+- Interceptor
+- Object Cloning
+- CallBacks dan Closures
+- Namespaces dan Autoloading
+- ...
+
+-___________________________AI___________________________-
+Procedural Programming (Pemrograman Prosedural)
+Langkah Demi Langkah: Pemrograman prosedural memecah masalah menjadi serangkaian instruksi yang dijalankan secara berurutan, biasanya dari atas ke bawah. Proses ini mencerminkan alur logika yang linear.
+Modularisasi: Program dipecah menjadi unit-unit kecil yang disebut prosedur, fungsi, atau subrutin. Ini membantu dalam mengorganisasi kode agar lebih mudah dipahami dan diulang penggunaannya.
+Linear vs Modular: Benar bahwa procedural programming cenderung linear, tetapi modularisasi membantu memecah program menjadi bagian-bagian kecil yang lebih mudah dipelihara, meskipun tidak memiliki struktur sekompleks OOP.
+Bahasa Pemrograman: Beberapa bahasa yang mendukung paradigma ini termasuk Fortran, ALGOL, COBOL, Pascal, C, PHP, dan JavaScript. Betul, beberapa bahasa seperti PHP dan JavaScript mendukung kedua paradigma, yaitu procedural dan OOP.
+Kelebihan Procedural Programming:
+
+Simplicity: Implementasi sederhana dan langsung, sangat cocok untuk program yang kecil dan menengah.
+Kemudahan Penelusuran Error: Error sering kali lebih mudah ditelusuri karena program berjalan secara linear.
+Memory Usage: Karena tidak ada banyak overhead seperti di OOP (misalnya, tidak ada sistem objek yang kompleks), penggunaan memori lebih efisien.
+Object-Oriented Programming (Pemrograman Berorientasi Objek)
+OOP untuk Proyek Besar: OOP lebih cocok untuk proyek besar karena memudahkan pengorganisasian kode dengan struktur yang lebih baik, memungkinkan banyak orang bekerja pada proyek yang sama.
+Objek: Objek adalah instansi dari kelas yang menyimpan data (property/atribut) dan metode (fungsi) yang beroperasi pada data tersebut. Objek juga dapat saling berinteraksi.
+Konsep Utama OOP:
+Enkapsulasi: Proses menyembunyikan data dan hanya memperbolehkan akses melalui metode yang ditentukan.
+Abstraksi: Penyederhanaan kompleksitas program dengan hanya menampilkan informasi yang penting, sembari menyembunyikan detail yang tidak diperlukan.
+Inheritance (Pewarisan): Kemampuan kelas untuk mewarisi properti dan metode dari kelas lain.
+Polymorphism: Kemampuan objek untuk menggunakan metode yang sama dengan implementasi berbeda.
+Reusability: Bagian-bagian kode dapat digunakan kembali di bagian lain dari program, mengurangi duplikasi dan meningkatkan efisiensi.
+Skalabilitas: OOP memungkinkan perluasan program dengan mudah seiring bertambahnya kompleksitas.
+Kelebihan OOP:
+
+Mempresentasikan Dunia Nyata: OOP cocok untuk model sistem yang mencerminkan objek dunia nyata.
+Enkapsulasi & Abstraksi: Membuat program lebih aman dan mudah dipahami dengan menyembunyikan kompleksitas.
+Reusability: Kode yang sudah dibuat dapat digunakan kembali, terutama melalui inheritance dan polymorphism.
+Skalabilitas & Ekstensibilitas: Memungkinkan program berkembang dengan lebih terstruktur.
+Kemudahan Pengelolaan: OOP memudahkan pengelolaan proyek besar dengan memisahkan tanggung jawab melalui objek dan kelas.
+Kolaborasi: Karena struktur yang jelas dan modular, banyak programmer dapat bekerja bersama dengan lebih mudah.
+Penggunaan Framework: Konsep OOP mendasari banyak framework modern, terutama dalam pengembangan web.
+Konsep OOP dalam PHP:
+Class & Object: Kelas adalah blueprint atau cetak biru dari objek. Objek adalah instansi dari kelas.
+Property & Methods: Property adalah atribut dari kelas, sedangkan methods adalah fungsionalitas yang dimiliki kelas.
+Constructor: Fungsi khusus yang dipanggil saat objek dibuat untuk menginisialisasi properti.
+Inheritance (Pewarisan): Kemampuan untuk mewarisi properti dan metode dari kelas lain.
+Visibility: Public, private, dan protected mengatur aksesibilitas properti dan metode.
+Setter & Getter: Metode yang digunakan untuk mengatur dan mendapatkan nilai dari properti yang biasanya memiliki visibilitas private.
+Static Methods: Metode yang bisa dipanggil tanpa harus membuat instansi objek.
+Advanced Concepts:
+
+Abstract Class & Interface: Kelas abstrak tidak bisa diinstansiasi dan biasanya digunakan sebagai blueprint untuk kelas lain. Interface mendefinisikan kontrak untuk metode tanpa implementasi.
+Object Cloning: Membuat duplikat objek.
+Callbacks & Closures: Fungsi yang bisa dikirim sebagai argumen ke fungsi lain atau dikembalikan sebagai nilai.
+Namespaces & Autoloading: Namespace membantu mengelola kode dalam proyek besar, sementara autoloading memudahkan pemanggilan kelas tanpa perlu require/include manual.
+Koreksi & Penambahan:
+
+OOP di JavaScript: JavaScript mendukung OOP dengan prototipe (prototype-based inheritance), yang berbeda dari sistem kelas tradisional seperti di Java atau C++.
+Meskipun PHP dan JavaScript mendukung OOP, kedua bahasa ini tidak dirancang murni sebagai bahasa OOP, melainkan mendukung berbagai paradigma.
