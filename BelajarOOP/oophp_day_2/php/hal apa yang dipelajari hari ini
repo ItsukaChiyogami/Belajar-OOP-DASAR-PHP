@@ -1,0 +1,103 @@
+hari ini saya mempelajari soal property dan methods
+saya mencoba untuk mengoprak aprik codingan dan saya mempelajari bahwa
+instance / object di php harus di inisialisasi berbeda dengan java yang sudah lansung diinisialisasi
+property juga ialah isi dari benda tersebut serperti apa warna laptop,spec laptop,harga laptop,brand laptop dan lain lain
+berbeda dengan property methods lebih fokus ke apa yang bisa dilakukan object seperti bisa install windows,bisa online dan bisa kirim data ke pengguna laptop lainnya
+dalam property dan methods juga ada visibility yaitu public,private dan protected
+
+Tambahan dari CHATGPT
+Constructor dan Destructor:
+Constructor digunakan untuk menginisialisasi objek saat dibuat. Contohnya, kita bisa menggunakan metode __construct():
+
+<?php 
+Contoh Constructor :
+class Produk {
+    private string $nama;
+
+    public function __construct(string $nama) {
+        $this->nama = $nama;
+    }
+
+    public function infoProduk() {
+        return "Nama Produk: $this->nama\n";
+    }
+}
+
+$produk1 = new Produk("Laptop");
+echo $produk1->infoProduk();
+?>
+
+Destructor, yang ditandai dengan __destruct(), digunakan untuk membersihkan sumber daya ketika objek tidak lagi digunakan:
+
+Contoh Destructor :
+class Produk {
+    public function __destruct() {
+        echo "Objek produk telah dihancurkan.\n";
+    }
+}
+
+$produk1 = new Produk();
+unset($produk1); // Memanggil destructor
+
+Static Properties dan Methods:
+Static properties dan methods dimiliki oleh class itu sendiri dan dapat diakses tanpa membuat instance dari class:
+
+Contoh Statics
+class Counter {
+    public static int $count = 0;
+
+    public static function increment() {
+        self::$count++;
+    }
+}
+
+Counter::increment();
+echo Counter::$count; // Output: 1
+
+Inheritance (Pewarisan):
+Satu class dapat mewarisi properti dan metode dari class lain, memungkinkan penggunaan kembali kode:
+
+Contoh Inheritance
+class Kendaraan {
+    public function bergerak() {
+        return "Kendaraan bergerak.\n";
+    }
+}
+
+class Mobil extends Kendaraan {
+    public function info() {
+        return "Ini adalah mobil.\n";
+    }
+}
+
+$mobil = new Mobil();
+echo $mobil->bergerak(); // Output: Kendaraan bergerak.
+echo $mobil->info();     // Output: Ini adalah mobil.
+
+Polimorfisme:
+Ini memungkinkan metode dalam subclass untuk mengoverride metode yang ada di superclass, memberikan perilaku yang berbeda berdasarkan tipe objek:
+
+class Hewan {
+    public function suara() {
+        return "Suara hewan.\n";
+    }
+}
+
+class Kucing extends Hewan {
+    public function suara() {
+        return "Meow.\n";
+    }
+}
+
+class Anjing extends Hewan {
+    public function suara() {
+        return "Bark.\n";
+    }
+}
+
+$hewan1 = new Kucing();
+$hewan2 = new Anjing();
+echo $hewan1->suara(); // Output: Meow.
+echo $hewan2->suara(); // Output: Bark.
+
+
